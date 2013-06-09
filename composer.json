@@ -1,0 +1,19 @@
+{
+    "name": "carlosio/guzzle-proxy-pool-plugin",
+    "description": "Plugin for Guzzle in order to make request using a set of proxies",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Carlos Buenosvinos",
+            "email": "hi@carlos.io"
+        }
+    ],
+    "require": {
+        "guzzle/guzzle": ">=3.0.0"
+    },
+    "autoload": {
+        "psr-0": {
+            "CarlosIO": "src/"
+        }
+    }
+}
